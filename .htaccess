@@ -1,0 +1,17 @@
+Options -Indexes
+RewriteEngine On
+
+# Přesměrování index.php na root
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index\.php [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Skrytí .php přípon
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+# Skrytí .html přípon (volitelné)
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^/.]+)$ $1.html [L]
+
