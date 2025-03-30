@@ -38,7 +38,7 @@ include "nav.php";
                 <div class="row d-flex justify-content-center">
                     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 d-flex justify-content-center">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-2">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-2">
                                 <div class="card h-100 d-flex flex-column">
                                     <img style="width: 100%; height: 200px; object-fit: contain;"
                                         src="IMGS/Kramsmor.png" alt="Kramsmor" class="card-img-top">
@@ -49,7 +49,7 @@ include "nav.php";
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-2">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-2">
                                 <div class="card h-100 d-flex flex-column">
                                     <img style="width: 100%; height: 200px; object-fit: contain;"
                                         src="IMGS/ZaseMazi.png" alt="ZaseMaZi" class="card-img-top">
@@ -60,24 +60,13 @@ include "nav.php";
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-2">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-2">
                                 <div class="card h-100 d-flex flex-column">
                                     <img style="width: 100%; height: 200px; object-fit: contain;"
                                         src="IMGS/Jisi_22.png" alt="Jisi_22" class="card-img-top">
                                     <div class="card-body d-flex flex-column">
                                         <h4 class="card-title text-center">Jisi_22</h4>
                                         <h5 class="card-title text-center">Hlavní moderátor</h5>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-2">
-                                <div class="card h-100 d-flex flex-column">
-                                    <img style="width: 100%; height: 200px; object-fit: contain;"
-                                        src="IMGS/levischop07.png" alt="Levischop07" class="card-img-top">
-                                    <div class="card-body d-flex flex-column">
-                                        <h4 class="card-title text-center">Levischop07</h4>
-                                        <h5 class="card-title text-center">Manager</h5>
                                     </div>
                                 </div>
                             </div>
